@@ -1,18 +1,18 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
--- Create the main window for Cooki Hub with a dark ocean blue theme
+-- kkckvkvkvlvkvkv
 local Window = Rayfield:CreateWindow({
     Name = "Cooki Hub Cracked",
     Icon = "Cookie",
     LoadingTitle = "Cooki Hub Loaded!",
     LoadingSubtitle = "Cracked By ilikepineapplesalt4",
     Theme = {
-    TextColor = Color3.fromRGB(245, 235, 220), -- Creamy cookie text
+    TextColor = Color3.fromRGB(245, 235, 220), 
 
-    Background = Color3.fromRGB(66, 47, 33), -- Deep cookie base
-    Topbar = Color3.fromRGB(81, 59, 42),     -- Slightly lighter top
-    Shadow = Color3.fromRGB(45, 32, 22),     -- Warm shadow
-
+    Background = Color3.fromRGB(66, 47, 33), 
+    Topbar = Color3.fromRGB(81, 59, 42),     
+    Shadow = Color3.fromRGB(45, 32, 22),     
+            
     NotificationBackground = Color3.fromRGB(77, 56, 38),
     NotificationActionsBackground = Color3.fromRGB(140, 105, 75),
 
@@ -132,7 +132,6 @@ UniversalTab:CreateButton({
     end
 })
 
--- Create Game Specific Tab with all game scripts in alphabetical order
 local GameSpecificTab = Window:CreateTab("Game Specific")
 
 GameSpecificTab:CreateSection("3008")
